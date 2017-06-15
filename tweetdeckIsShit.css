@@ -1,0 +1,259 @@
+@-moz-document domain("tweetdeck.twitter.com") {
+        .js-app-columns,
+    .app-columns .horizontal-flow-container,
+    .without-tweet-drag-handles {
+        padding: 0px;
+    }
+    .app-header.is-condensed .sprite-logo-badge {
+        display: none;
+    }
+    .txt-sub-antialiased {
+        opacity: 0.2;
+    }
+    .tweet {
+        font-family: hack, ubuntu, verdana, segoe ui, helvetica;
+    }
+    .antiscroll-inner {
+        width: 95% !important;
+        overflow-x: hidden;
+    }
+    .scroll-v {
+        width: 106%;
+    }
+    .compose-text {
+        width: 95%;
+    }
+    .js-tweet-actions {
+        opacity: 1;
+    }
+    .inline-reply {
+        background-color: #17181A;
+    }
+    .nbfc {
+        color: #DDDDDD;
+    }
+    .compose-header {
+        border-color: #72587F;
+    }
+    .stream-item {
+        font-size: 8pt;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 94% !important;
+    }
+    .js-column-header,
+    .js-action-header,
+    .column-header {
+        background-color: #17181A;
+        opacity: 0.3;
+        transition: opacity 0.3s 0.1s;
+    }
+    .column-header:hover {
+        opacity: 1;
+    }
+    .column-options {
+        background-color: #17181A;
+    }
+    .avatar,
+    .compose-account-img,
+    .size48,
+    .js-account-item {
+        border-radius: 10px;
+        transition: transform 0.1s ease-out;
+    }
+    .avatar:hover,
+    .compose-account-img:hover,
+    .size48:hover,
+    .js-account-item:hover {
+        transform: scale(1.05, 1.05);
+    }
+    .avatar:active,
+    .compose-account-img:active,
+    .size48:active,
+    .js-account-item:active {
+        transform: scale(0.9, 0.9);
+    }
+    .s-profile,
+    .prf {
+        border-radius: 0px;
+    }
+    .js-follow-button,
+    .btn,
+    .btn-alt,
+    .js-hide-drawer,
+    .margin-bm,
+    .btn-alt:focus,
+    .btn-aquare,
+    .attach-compose-buttons,
+    .tweet-button,
+    .btn-positive,
+    .js-user-actions-menu .is-inverted-dark,
+    .compose {
+        background-color: #17181A;
+        color: #DDDDDD;
+    }
+    .is-vishidden-wide {
+        display: none;
+    }
+    .tweet-dogear {
+        display: none;
+    }
+    .stream-item .is-favorite {
+        border-right: solid 2px #f44336;
+    }
+    .is-favorite .link-complex {
+        color: #f44336;
+    }
+    .stream-item .is-retweet {
+        border-right: solid 2px #2ecc40;
+    }
+    .is-retweet .link-complex {
+        color: #2ecc40;
+    }
+    .txt-sub-antialiased {
+        opacity: 0.5;
+    }
+    .quoted-tweet {
+        border-color: #333;
+        transition: transform 0.0875s;
+    }
+    .quoted-tweet:hover {
+        border-color: #333;
+        transform: scale(1.05, 1.05);
+    }
+    .icon-small-context {
+        opacity: 0.8;
+    }
+    .js-column-nav {
+        overflow: hidden;
+    }
+    .prf-bio {
+        letter-spacing: -0.5px;
+    }
+    .attach-compose-buttons .tweet-button {
+        background-color: #17181A;
+    }
+    .js-follow-button:hover,
+    .btn:hover,
+    .btn-alt:hover,
+    .btn-alt:hover,
+    .btn-aquare:hover,
+    .js-user-actions-menu:hover .is-inverted-dark:hover {
+        background-color: #222;
+        color: #DDDDDD;
+    }
+    .js-send-tweet-button,
+    .js-hide-drawer,
+    .tweet-button,
+    .column-message {
+        color: #DDD;
+        background-color: #17181A;
+    }
+    .js-send-tweet-button:hover .js-hide-drawer:hover {
+        color: #111;
+        background-color: #7fdbff;
+    }
+    .btn-positive-on-blue[disabled],
+    .btn-positive-on-blue[disabled]:hover,
+    .btn-positive-on-blue[disabled]:active,
+    .btn-positive-on-blue.is-disabled,
+    .btn-positive-on-blue.is-disabled:hover,
+    .btn-positive-on-blue.is-disabled:focus,
+    .btn-positive-on-blue.is-disabled:active {
+        background-color: #eee;
+    }
+    .js-detail-container {
+        background-color: #17181A;
+    }
+    .column {
+        border: 2px solid #444;
+        padding: 2px;
+    }
+    #container {
+        background-color: #222426;
+    }
+    .app-columns {
+        padding: 0 !important;
+    }
+    .scroll-styled-v,
+    .scroll-styled-h {
+        border-left: 0 !important;
+    }
+    .scroll-styled-v::-webkit-scrollbar-track,
+    .scroll-styled-h::-webkit-scrollbar-track {
+        border-left: 0;
+    }
+    .scroll-styled-v::-webkit-scrollbar {
+        width: 7px !important;
+    }
+    .scroll-styled-v::-webkit-scrollbar-thumb,
+    .scroll-styled-h::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+    .scroll-styled-v::-webkit-scrollbar-thumb:hover,
+    .scroll-styled-h::-webkit-scrollbar-thumb:hover {
+        background-color: #555;
+    }
+    .column-type-icon {
+        display: none;
+    }
+    .column-number {
+        display: none;
+    }
+    .js-app-header-inner .icon-large {
+        font-size: 20px;
+        text-align: center;
+    }
+    .js-app-header-inner .tweet-button {
+        border-radius: 20px;
+    }
+    .js-app-header-inner .attach-compose-buttons .tweet-button {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .icon-compose {
+        font-size: 20px !important;
+        margin: 0 !important;
+    }
+    .compose-text-container {
+        width: 95%
+    }
+    .tweet-context .pull-right {
+        float: none;
+    }
+    .column {
+        width: 600px !important;
+    }
+    .tweet-context .item-img {
+        display: none;
+    }
+    .tweet-context .nbfc {
+        margin-left: 3px;
+        margin-bottom: 4px;
+    }
+    .column-navigator {
+        display: none
+    }
+    .app-header-inner,
+    .app-title {
+        background-color: #17181A;
+    }
+    .icon-reply::before {
+        content: "\21a9"
+    }
+    .icon-retweet::before {
+        content: "\262d"
+    }
+    .icon-more::before {
+        content: "\22ef"
+    }
+    .icon-favorite::before {
+        content: "\2764"
+    }
+    .activity-header .avatar {
+        display: none;
+    }
+}

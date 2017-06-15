@@ -250,10 +250,12 @@
     .icon-more::before {
         content: "\22ef"
     }
-    .icon-favorite::before {
-        content: "\2764"
+    .icon-favorite::before, .icon-heart-filled::before {
+        content: "\2615";
     }
     .activity-header .avatar {
         display: none;
     }
+}
+
 }
